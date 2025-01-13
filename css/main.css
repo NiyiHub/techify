@@ -1464,12 +1464,25 @@ h1.intro-header::before {
   color: #ffffff;
 }
 
+@media screen and (max-width: 850px) {
+  .home-content-left h1 {
+    margin-top: 5rem;
+  }
+}
+
 .home-content-left h3 {
   color: rgba(255, 255, 255, 0.8);
   font-size: 1.6rem;
   line-height: 1.5;
   letter-spacing: .2rem;
   margin-bottom: 2.4rem;
+}
+
+@media screen and (max-width: 850px) {
+  .home-content-left h3 {
+    margin-top: 37rem;
+    color: #fff;
+  }
 }
 
 .home-content-left .button.stroke {
@@ -1948,6 +1961,16 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 .about-bottom-image img {
   vertical-align: bottom;
+}
+
+.apply {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.apply-button {
+  display: inline-block;
 }
 
 
